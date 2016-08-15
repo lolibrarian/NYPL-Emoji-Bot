@@ -33,6 +33,9 @@ function getFirstEmojiName(message) {
   let character = matches[0];
   let name = emoji.which(character);
 
+  // workaround for omnidan/node-emoji#21
+  if (name.startsWith('flag-')) { return null; }
+
   return name;
 }
 

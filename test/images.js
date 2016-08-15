@@ -21,7 +21,8 @@ describe('Images', () => {
     let records = {
       scream: [ 'http://example.com/scream' ],
       '+1': [ 'http://example.com/+1' ],
-      gear: [] // record incomplete
+      gear: [], // record incomplete
+      'flag-ma': [ 'http://example.com/wrong' ] // should be ignored
     };
     let finder = new Images(records);
 
@@ -53,6 +54,14 @@ describe('Images', () => {
       describe('record not found', () => {
         it('should return null', () => {
           let image = finder.getFromText('@some_bot 😖');
+
+          assert.equal(image, null);
+        });
+      });
+
+      describe('flag', () => {
+        it('is ignored', () => {
+          let image = finder.getFromText('@some_bot 🇲🇽');
 
           assert.equal(image, null);
         });
