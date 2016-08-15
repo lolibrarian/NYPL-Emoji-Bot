@@ -44,7 +44,7 @@ npm test
 
 ## Contributing
 
-Bug reports, fixes, additions, and new features are welcomed. If you'd like to contribute code, please:
+Emoji additions, bug reports, fixes, and new features are welcomed. If you'd like to contribute code, please:
 
 1. Fork the project
 
