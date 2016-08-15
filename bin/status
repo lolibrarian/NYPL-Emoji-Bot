@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Starting Twitter status process'
+
+node script/status.js
