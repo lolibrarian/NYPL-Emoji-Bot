@@ -1625,6 +1625,7 @@
         "http://digitalcollections.nypl.org/items/510d47da-d7fa-a3d9-e040-e00a18064a99"
     ],
     "koala":[
+        "http://digitalcollections.nypl.org/items/aeb794f0-62ec-9d00-e040-e00a180658fd",
         "http://digitalcollections.nypl.org/items/510d47da-bb6e-a3d9-e040-e00a18064a99"
     ],
     "koko": [],
@@ -2256,7 +2257,9 @@
     "rice":[
         "http://digitalcollections.nypl.org/items/c261ef12-e4cc-3577-e040-e00a18067776"
     ],
-    "rice_ball": [],
+    "rice_ball": [
+        "http://digitalcollections.nypl.org/items/a6249ebc-895b-849c-e040-e00a18060616"    
+    ],
     "rice_cracker": [],
     "rice_scene": [],
     "right_anger_bubble": [],
