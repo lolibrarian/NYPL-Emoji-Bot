@@ -447,7 +447,8 @@
     ],
     "chains":[
         "http://digitalcollections.nypl.org/items/510d47e1-2499-a3d9-e040-e00a18064a99",
-        "http://digitalcollections.nypl.org/items/510d47e1-2444-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e1-2444-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-fc23-a3d9-e040-e00a18064a99"
     ],
     "champagne":[
         "http://digitalcollections.nypl.org/items/510d47db-3ec6-a3d9-e040-e00a18064a99",
@@ -2284,7 +2285,9 @@
         "http://digitalcollections.nypl.org/items/510d47e2-09a9-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47da-9419-a3d9-e040-e00a18064a99"
     ],
-    "rage": [],
+    "rage": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-e452-d471-e040-e00a180654d7"    
+    ],
     "railway_car": [],
     "railway_track":[
         "http://digitalcollections.nypl.org/items/510d47e1-8b78-a3d9-e040-e00a18064a99"
@@ -2437,7 +2440,8 @@
         "http://digitalcollections.nypl.org/items/510d47e4-6779-a3d9-e040-e00a18064a99"
     ],
     "scream":[
-        "http://digitalcollections.nypl.org/items/510d47e1-375b-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e1-375b-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/8bfbd237-2d0f-aed1-e040-e00a1806680b"
     ],
     "scream_cat":[
         "http://digitalcollections.nypl.org/items/510d47da-9b69-a3d9-e040-e00a18064a99"
@@ -2514,7 +2518,8 @@
     "skull":[
         "http://digitalcollections.nypl.org/items/74c9f570-82b9-0130-400f-58d385a7bbd0",
         "http://digitalcollections.nypl.org/items/6956ae61-c1d4-3815-e040-e00a18065ecc",
-        "http://digitalcollections.nypl.org/items/510d47db-3865-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47db-3865-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-dd3d-d471-e040-e00a180654d7"
     ],
     "skull_and_crossbones": [
         "http://digitalcollections.nypl.org/items/510d47db-122b-a3d9-e040-e00a18064a99"
@@ -2821,12 +2826,16 @@
         "http://digitalcollections.nypl.org/items/510d47e0-cfcb-a3d9-e040-e00a18064a99"
     ],
     "timer_clock": [],
-    "tired_face": [],
+    "tired_face": [
+        "http://digitalcollections.nypl.org/items/90f27b23-76af-2d20-e040-e00a18064b4d"    
+    ],
     "tm": [],
     "toilet":[
         "http://digitalcollections.nypl.org/items/b4afdefd-4bd7-146a-e040-e00a180610a2"
     ],
-    "tokyo_tower": [],
+    "tokyo_tower": [
+        "http://digitalcollections.nypl.org/items/6afd4e50-f3da-0130-6b32-58d385a7bbd0"    
+    ],
     "tomato":[
         "http://digitalcollections.nypl.org/items/510d47dd-c6b1-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/ae6c1dd9-5859-f55a-e040-e00a18062565"
@@ -2836,12 +2845,16 @@
     ],
     "top": [],
     "tophat":[
-        "http://digitalcollections.nypl.org/items/510d47e1-22ac-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e1-22ac-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/498edbb0-1f93-0134-eeac-00505686a51c",
+        "http://digitalcollections.nypl.org/items/510d47e1-221b-a3d9-e040-e00a18064a99"
     ],
     "tornado":[
         "http://digitalcollections.nypl.org/items/510d47d9-aa8a-a3d9-e040-e00a18064a99"
     ],
-    "tornado_cloud": [],
+    "tornado_cloud": [
+        "http://digitalcollections.nypl.org/items/510d47d9-aa8a-a3d9-e040-e00a18064a99"
+    ],
     "trackball": [],
     "tractor":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-8dc5-d471-e040-e00a180654d7"
@@ -3008,7 +3021,8 @@
         "http://digitalcollections.nypl.org/items/510d47e3-af8f-a3d9-e040-e00a18064a99"
     ],
     "vertical_traffic_light":[
-        "http://digitalcollections.nypl.org/items/b4afdefd-4cd1-146a-e040-e00a180610a2"
+        "http://digitalcollections.nypl.org/items/b4afdefd-4cd1-146a-e040-e00a180610a2",
+        "http://digitalcollections.nypl.org/items/bc3bede1-86a7-cebb-e040-e00a18064596"
     ],
     "vhs": [
         "http://digitalcollections.nypl.org/items/9fa5d371-825d-7bd0-e040-e00a180606c8"    
@@ -3032,7 +3046,9 @@
         "http://digitalcollections.nypl.org/items/510d47e0-db34-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47d9-bb8a-a3d9-e040-e00a18064a99"
     ],
-    "vs": [],
+    "vs": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-bcde-d471-e040-e00a180654d7"    
+    ],
     "walking":[
         "http://digitalcollections.nypl.org/items/4627eee0-ea71-0131-5384-58d385a7bbd0"
     ],
