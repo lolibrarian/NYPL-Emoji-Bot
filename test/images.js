@@ -17,7 +17,7 @@ describe('Images', () => {
     });
   });
 
-  describe('#getFromTweet', () => {
+  describe('#getFromText', () => {
     let records = {
       scream: [ 'http://example.com/scream' ],
       '+1': [ 'http://example.com/+1' ],
@@ -28,7 +28,7 @@ describe('Images', () => {
     describe('emoji present', () => {
       describe('record found and complete', () => {
         it('should return an image', () => {
-          let image = finder.getFromTweet('@some_bot 😱');
+          let image = finder.getFromText('@some_bot 😱');
 
           assert.equal(image.toString(), '😱 http://example.com/scream');
         });
@@ -36,7 +36,7 @@ describe('Images', () => {
 
       describe('with modifier', () => {
         it('should return an image without the modifier', () => {
-          let image = finder.getFromTweet('@some_bot 👍🏿');
+          let image = finder.getFromText('@some_bot 👍🏿');
 
           assert.equal(image.toString(), '👍 http://example.com/+1');
         });
@@ -44,7 +44,7 @@ describe('Images', () => {
 
       describe('record found, but incomplete', () => {
         it('should return a "Not Found" message', () => {
-          let image = finder.getFromTweet('@some_bot ⚙');
+          let image = finder.getFromText('@some_bot ⚙');
 
           assert.equal(image.toString(), '⚙ ¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
         });
@@ -52,7 +52,7 @@ describe('Images', () => {
 
       describe('record not found', () => {
         it('should return null', () => {
-          let image = finder.getFromTweet('@some_bot 😖');
+          let image = finder.getFromText('@some_bot 😖');
 
           assert.equal(image, null);
         });
@@ -62,7 +62,7 @@ describe('Images', () => {
     describe('emoji absent', () => {
       it('should return null', () => {
         let finder = new Images(records);
-        let image = finder.getFromTweet('@some_bot hello');
+        let image = finder.getFromText('@some_bot hello');
 
         assert.equal(image, null);
       });

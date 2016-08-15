@@ -8,7 +8,7 @@ let stream = Twitter.stream();
 
 stream.on('tweet', (payload) => {
   if (isReply(payload)) {
-    let image = new Images().getFromTweet(payload.text);
+    let image = new Images().getFromText(payload.text);
     let tweet = new Tweet(image).getReply(payload.user.screen_name);
 
     Twitter.post(tweet);

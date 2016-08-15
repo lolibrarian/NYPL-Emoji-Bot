@@ -19,8 +19,8 @@ class Images {
     return getImage(records, emoji_name);
   }
 
-  getFromTweet(message) {
-    let emoji_name = getFirstEmojiName(message);
+  getFromText(text) {
+    let emoji_name = getFirstEmojiName(text);
 
     return getImage(this.records, emoji_name);
   }
