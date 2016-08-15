@@ -2278,7 +2278,9 @@
     "racing_motorcycle":[
         "http://digitalcollections.nypl.org/items/510d47e2-3c02-a3d9-e040-e00a18064a99"
     ],
-    "radio": [],
+    "radio": [
+        "http://digitalcollections.nypl.org/items/7b8172c8-b46b-d1a9-e040-e00a1806198a"    
+    ],
     "radio_button": [],
     "radioactive_sign":[
         "http://digitalcollections.nypl.org/items/510d47e2-09a9-a3d9-e040-e00a18064a99",
@@ -2805,7 +2807,9 @@
     "three": [],
     "three_button_mouse": [],
     "thumbsdown": [],
-    "thumbsup": [],
+    "thumbsup": [
+        "http://digitalcollections.nypl.org/items/b31f5d33-7f5a-17da-e040-e00a18062482"    
+    ],
     "thunder_cloud_and_rain": [],
     "ticket":[
         "http://digitalcollections.nypl.org/items/510d47df-75f2-a3d9-e040-e00a18064a99",
