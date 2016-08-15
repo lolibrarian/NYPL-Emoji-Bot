@@ -9,12 +9,10 @@ class Image {
   }
 
   toString() {
-    return `${getEmojiCharacter(this)} ${this.url}`;
-  }
-}
+    let character = emoji.get(this.emoji_name);
 
-function getEmojiCharacter(image) {
-  return emoji.get(image.emoji_name);
+    return `${character} ${this.url}`;
+  }
 }
 
 module.exports = Image;

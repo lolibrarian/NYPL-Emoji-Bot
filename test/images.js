@@ -46,7 +46,7 @@ describe('Images', () => {
         it('should return a "Not Found" message', () => {
           let image = finder.getFromTweet('@some_bot ⚙');
 
-          assert.equal(image.toString(), '¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
+          assert.equal(image.toString(), '⚙ ¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
         });
       });
 

@@ -42,7 +42,7 @@ function getImage(records, emoji_name) {
   if (urls === undefined) {
     return null; // record not found
   } else if (urls.length === 0) {
-    return Incomplete;
+    return new Incomplete(emoji_name);
   }
 
   let url = randomMember(urls);
