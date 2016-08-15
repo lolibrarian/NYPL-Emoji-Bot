@@ -6,7 +6,10 @@
         "http://digitalcollections.nypl.org/items/a87f2350-b9e7-0131-4b72-58d385a7bbd0"
     ],
     "1234": [],
-    "+1": [],
+    "+1": [
+        "http://digitalcollections.nypl.org/items/b31f5d33-7f5a-17da-e040-e00a18062482",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-bad8-d471-e040-e00a180654d7"
+    ],
     "-1": [],
     "8ball":[
         "http://digitalcollections.nypl.org/items/510d47de-7680-a3d9-e040-e00a18064a99",
