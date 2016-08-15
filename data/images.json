@@ -393,7 +393,9 @@
     "cake":[
         "http://digitalcollections.nypl.org/items/61bb8540-c759-0132-e6ba-58d385a7bbd0"
     ],
-    "calendar": [],
+    "calendar": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-6d47-d471-e040-e00a180654d7"    
+    ],
     "calling": [],
     "camel":[
         "http://digitalcollections.nypl.org/items/510d47e1-43ec-a3d9-e040-e00a18064a99"
@@ -733,7 +735,9 @@
         "http://digitalcollections.nypl.org/items/510d47e4-7b29-a3d9-e040-e00a18064a99"
     ],
     "currency_exchange": [],
-    "curry": [],
+    "curry": [
+        "http://digitalcollections.nypl.org/items/510d47db-4f05-a3d9-e040-e00a18064a99"    
+    ],
     "custard":[
         "http://digitalcollections.nypl.org/items/510d47de-3aed-a3d9-e040-e00a18064a99"
     ],
@@ -1417,7 +1421,9 @@
         "http://digitalcollections.nypl.org/items/510d47de-1ad3-a3d9-e040-e00a18064a99"
     ],
     "hammer_and_pick": [],
-    "hammer_and_wrench": [],
+    "hammer_and_wrench": [
+        "http://digitalcollections.nypl.org/items/510d47d9-acbf-a3d9-e040-e00a18064a99"    
+    ],
     "hamster":[
         "http://digitalcollections.nypl.org/items/510d47d9-78a5-a3d9-e040-e00a18064a99"
     ],
@@ -1465,7 +1471,9 @@
     "hearts":[
         "http://digitalcollections.nypl.org/items/510d47e3-253f-a3d9-e040-e00a18064a99"
     ],
-    "heavy_check_mark": [],
+    "heavy_check_mark": [
+        "http://digitalcollections.nypl.org/items/510d47da-5865-a3d9-e040-e00a18064a99"    
+    ],
     "heavy_division_sign": [],
     "heavy_dollar_sign": [],
     "heavy_exclamation_mark": [],
@@ -1928,7 +1936,9 @@
         "http://digitalcollections.nypl.org/items/04ca17e0-9abf-0132-7fe6-58d385a7bbd0",
         "http://digitalcollections.nypl.org/items/510d47e2-1db4-a3d9-e040-e00a18064a99"
     ],
-    "name_badge": [],
+    "name_badge": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-ca06-d471-e040-e00a180654d7"    
+    ],
     "national_park":[
         "http://digitalcollections.nypl.org/items/510d47d9-3f40-a3d9-e040-e00a18064a99"
     ],
@@ -2035,10 +2045,16 @@
     ],
     "om_symbol": [],
     "on": [],
-    "oncoming_automobile": [],
-    "oncoming_bus": [],
+    "oncoming_automobile": [
+        "http://digitalcollections.nypl.org/items/6f02b7d0-ea71-0131-8e9f-58d385a7bbd0"    
+    ],
+    "oncoming_bus": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-a28c-d471-e040-e00a180654d7"    
+    ],
     "oncoming_police_car": [],
-    "oncoming_taxi": [],
+    "oncoming_taxi": [
+        "http://digitalcollections.nypl.org/items/ae6c1dd9-56b6-f55a-e040-e00a18062565"    
+    ],
     "one": [],
     "open_book": [
         "http://digitalcollections.nypl.org/items/510d47db-c679-a3d9-e040-e00a18064a99"
@@ -2064,7 +2080,9 @@
     "package":[
         "http://digitalcollections.nypl.org/items/510d47d9-b7da-a3d9-e040-e00a18064a99"
     ],
-    "page_facing_up": [],
+    "page_facing_up": [
+        "http://digitalcollections.nypl.org/items/510d47df-d584-a3d9-e040-e00a18064a99"    
+    ],
     "page_with_curl":[
         "http://digitalcollections.nypl.org/items/510d47d9-857a-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/893c0fe7-8275-ad5f-e040-e00a18064278"
@@ -2148,7 +2166,9 @@
     "pizza":[
         "http://digitalcollections.nypl.org/items/ae6c1dd9-555e-f55a-e040-e00a18062565"
     ],
-    "place_of_worship": [],
+    "place_of_worship": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-84db-d471-e040-e00a180654d7"    
+    ],
     "point_down": [],
     "point_left": [],
     "point_right":[
@@ -2169,7 +2189,9 @@
     "popcorn":[
         "http://digitalcollections.nypl.org/items/510d47dd-9e59-a3d9-e040-e00a18064a99"
     ],
-    "post_office": [],
+    "post_office": [
+        "http://digitalcollections.nypl.org/items/c26315f5-f0cf-8706-e040-e00a1806153e"    
+    ],
     "postal_horn":[
         "http://digitalcollections.nypl.org/items/a4958095-46e9-074d-e040-e00a1806792c"
     ],
@@ -2450,7 +2472,9 @@
         "http://digitalcollections.nypl.org/items/9413e341-32e4-7c92-e040-e00a18064d91"
     ],
     "six": [],
-    "six_pointed_star": [],
+    "six_pointed_star": [
+        "http://digitalcollections.nypl.org/items/510d47dc-4037-a3d9-e040-e00a18064a99"    
+    ],
     "ski":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-e288-d471-e040-e00a180654d7",
         "http://digitalcollections.nypl.org/items/5e66b3e9-070f-d471-e040-e00a180654d7"
@@ -2911,7 +2935,9 @@
     "vertical_traffic_light":[
         "http://digitalcollections.nypl.org/items/b4afdefd-4cd1-146a-e040-e00a180610a2"
     ],
-    "vhs": [],
+    "vhs": [
+        "http://digitalcollections.nypl.org/items/9fa5d371-825d-7bd0-e040-e00a180606c8"    
+    ],
     "vibration_mode": [],
     "video_camera": [],
     "video_game":[
