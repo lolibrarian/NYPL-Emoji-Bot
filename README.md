@@ -44,4 +44,10 @@ npm test
 
 ## Contributing
 
-TBD
+Bug reports, fixes, additions, and new features are welcomed. If you'd like to contribute code, please:
+
+1. Fork the project
+
+2. Start a branch named for your new feature or bug
+
+3. Create a Pull Request
