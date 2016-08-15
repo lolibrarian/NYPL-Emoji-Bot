@@ -7,11 +7,14 @@ const Twitter = require('../src/twitter');
 let stream = Twitter.stream();
 
 stream.on('tweet', (payload) => {
+  let status_id = payload.id_str;
+
   if (isReply(payload)) {
     let image = new Images().getFromText(payload.text);
-    let tweet = new Tweet(image).getReply(payload.user.screen_name);
+    if (!image) { return; }
 
-    Twitter.post(tweet);
+    let tweet = new Tweet(image).getReply(payload.user.screen_name);
+    Twitter.reply(tweet, status_id);
   }
 });
 

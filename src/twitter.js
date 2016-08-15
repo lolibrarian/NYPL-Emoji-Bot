@@ -1,3 +1,5 @@
+'use strict';
+
 const Twit = require('twit');
 
 const twit = new Twit({
@@ -9,14 +11,22 @@ const twit = new Twit({
 
 const Twitter = {
   post: (message) => {
-    twit.post('statuses/update', { status: message }, (error) => {
-      error && console.error(error);
-    });
+    update({ status: message });
+  },
+
+  reply: (message, to_status_id) => {
+    update({ status: message, in_reply_to_status_id: to_status_id });
   },
 
   stream: () => {
     return twit.stream('user');
   }
 };
+
+function update(params) {
+  twit.post('statuses/update', params, (error) => {
+    error && console.error(error);
+  });
+}
 
 module.exports = Twitter;
