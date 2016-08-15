@@ -3,7 +3,7 @@
         "http://digitalcollections.nypl.org/items/510d47e2-416c-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47dd-f32a-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/5e66b3e8-89b6-d471-e040-e00a180654d7",
-"http://digitalcollections.nypl.org/items/a87f2350-b9e7-0131-4b72-58d385a7bbd0"
+        "http://digitalcollections.nypl.org/items/a87f2350-b9e7-0131-4b72-58d385a7bbd0"
     ],
     "1234": [],
     "+1": [],
@@ -372,7 +372,9 @@
     ],
     "bullettrain_front": [],
     "bullettrain_side": [],
-    "burrito": [],
+    "burrito": [
+        "http://digitalcollections.nypl.org/items/ae6c1dd9-56b6-f55a-e040-e00a18062565"    
+    ],
     "bus":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-da0e-d471-e040-e00a180654d7"
     ],
@@ -1372,7 +1374,11 @@
     "green_book":[
         "http://digitalcollections.nypl.org/items/dc858e50-83d3-0132-2266-58d385a7b928"
     ],
-    "green_heart": [],
+    "green_heart": [
+        "http://digitalcollections.nypl.org/items/510d47e3-64c7-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-6198-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-64d3-a3d9-e040-e00a18064a99"    
+    ],
     "grey_exclamation": [],
     "grey_question": [],
     "grimacing":[
@@ -1763,7 +1769,9 @@
         "http://digitalcollections.nypl.org/items/510d47d9-c367-a3d9-e040-e00a18064a99"
     ],
     "man-heart-man": [],
-    "man-kiss-man": [],
+    "man-kiss-man": [
+        "http://digitalcollections.nypl.org/items/510d47e3-b5a4-a3d9-e040-e00a18064a99"
+    ],
     "man-man-boy": [],
     "man-man-boy-boy": [],
     "man-man-girl": [],
@@ -2116,7 +2124,9 @@
     "phone":[
         "http://digitalcollections.nypl.org/items/510d47d9-b17d-a3d9-e040-e00a18064a99"
     ],
-    "pick": [],
+    "pick": [
+        "http://digitalcollections.nypl.org/items/510d47dd-e4a0-a3d9-e040-e00a18064a99"    
+    ],
     "pig":[
         "http://digitalcollections.nypl.org/items/13f6df60-f6ce-0130-6cc6-58d385a7bbd0"
     ],
@@ -2358,7 +2368,8 @@
     ],
     "satisfied": [],
     "saxophone":[
-        "http://digitalcollections.nypl.org/items/8be85efd-01c9-2a4b-e040-e00a18065153"
+        "http://digitalcollections.nypl.org/items/8be85efd-01c9-2a4b-e040-e00a18065153",
+        "http://digitalcollections.nypl.org/items/6284748f-2316-3fb4-e040-e00a180647d6"
     ],
     "scales":[
         "http://digitalcollections.nypl.org/items/510d47dd-d3af-a3d9-e040-e00a18064a99",
@@ -2457,7 +2468,9 @@
         "http://digitalcollections.nypl.org/items/6956ae61-c1d4-3815-e040-e00a18065ecc",
         "http://digitalcollections.nypl.org/items/510d47db-3865-a3d9-e040-e00a18064a99"
     ],
-    "skull_and_crossbones": [],
+    "skull_and_crossbones": [
+        "http://digitalcollections.nypl.org/items/510d47db-122b-a3d9-e040-e00a18064a99"
+    ],
     "sleeping":[
         "http://digitalcollections.nypl.org/items/510d47e3-3e49-a3d9-e040-e00a18064a99"
     ],
@@ -2626,7 +2639,9 @@
     "stuck_out_tongue_closed_eyes":[
         "http://digitalcollections.nypl.org/items/510d47dd-f278-a3d9-e040-e00a18064a99"
     ],
-    "stuck_out_tongue_winking_eye": [],
+    "stuck_out_tongue_winking_eye": [
+        "http://digitalcollections.nypl.org/items/510d47e3-64ab-a3d9-e040-e00a18064a99"
+    ],
     "studio_microphone":[
         "http://digitalcollections.nypl.org/items/9e78418c-529f-94eb-e040-e00a180656ef",
         "http://digitalcollections.nypl.org/items/7b8172c8-b46c-d1a9-e040-e00a1806198a"
@@ -2690,7 +2705,9 @@
         "http://digitalcollections.nypl.org/items/7d20cdeb-e421-4a73-e040-e00a18060ccc",
         "http://digitalcollections.nypl.org/items/510d47e4-4201-a3d9-e040-e00a18064a99"
     ],
-    "taco": [],
+    "taco": [
+        "http://digitalcollections.nypl.org/items/ae6c1dd9-57c6-f55a-e040-e00a18062565"    
+    ],
     "tada":[
         "http://digitalcollections.nypl.org/items/510d47da-4a5b-a3d9-e040-e00a18064a99"
     ],
@@ -2739,7 +2756,8 @@
     "thumbsup": [],
     "thunder_cloud_and_rain": [],
     "ticket":[
-        "http://digitalcollections.nypl.org/items/510d47df-75f2-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47df-75f2-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-c99d-d471-e040-e00a180654d7"
     ],
     "tiger":[
         "http://digitalcollections.nypl.org/items/7cfd6b6c-0e69-8833-e040-e00a18067633"
@@ -2792,7 +2810,9 @@
         "http://digitalcollections.nypl.org/items/5b487340-1d8a-0131-fdbd-58d385a7b928",
         "http://digitalcollections.nypl.org/items/510d47da-edbc-a3d9-e040-e00a18064a99"
     ],
-    "triumph": [],
+    "triumph": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-ddad-d471-e040-e00a180654d7"
+    ],
     "trolleybus":[
         "http://digitalcollections.nypl.org/items/510d47db-b897-a3d9-e040-e00a18064a99"
     ],
@@ -2812,7 +2832,10 @@
     "trumpet":[
         "http://digitalcollections.nypl.org/items/6284748f-2319-3fb4-e040-e00a180647d6"
     ],
-    "tshirt": [],
+    "tshirt": [
+        "http://digitalcollections.nypl.org/items/c17b57e0-2b34-0134-7850-00505686a51c",
+        "http://digitalcollections.nypl.org/items/510d47e1-1e78-a3d9-e040-e00a18064a99"
+    ],
     "tulip":[
         "http://digitalcollections.nypl.org/items/510d47dd-ee52-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47dd-f17a-a3d9-e040-e00a18064a99"
@@ -2971,7 +2994,10 @@
         "http://digitalcollections.nypl.org/items/510d47db-d677-a3d9-e040-e00a18064a99"
     ],
     "wheel_of_dharma": [],
-    "wheelchair": [],
+    "wheelchair": [
+        "http://digitalcollections.nypl.org/items/510d47dc-48ad-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47db-d0d1-a3d9-e040-e00a18064a99"
+    ],
     "white_check_mark": [],
     "white_circle": [],
     "white_flower":[
@@ -3003,7 +3029,9 @@
         "http://digitalcollections.nypl.org/items/510d47e2-f85f-a3d9-e040-e00a18064a99"
     ],
     "woman-heart-woman": [],
-    "woman-kiss-woman": [],
+    "woman-kiss-woman": [
+        "http://digitalcollections.nypl.org/items/510d47e3-960e-a3d9-e040-e00a18064a99"    
+    ],
     "woman-woman-boy": [],
     "woman-woman-boy-boy": [],
     "woman-woman-girl": [],
