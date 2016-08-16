@@ -1516,7 +1516,8 @@
     ],
     "high_brightness": [],
     "high_heel":[
-        "http://digitalcollections.nypl.org/items/893c0fe7-82ee-ad5f-e040-e00a18064278"
+        "http://digitalcollections.nypl.org/items/893c0fe7-82ee-ad5f-e040-e00a18064278",
+        "http://digitalcollections.nypl.org/items/510d47e4-5132-a3d9-e040-e00a18064a99"
     ],
     "hocho":[
         "http://digitalcollections.nypl.org/items/510d47de-38ab-a3d9-e040-e00a18064a99",
@@ -1747,7 +1748,9 @@
     "link":[
         "http://digitalcollections.nypl.org/items/510d47d9-b6e5-a3d9-e040-e00a18064a99"
     ],
-    "linked_paperclips": [],
+    "linked_paperclips": [
+        "http://digitalcollections.nypl.org/items/510d47dd-e20f-a3d9-e040-e00a18064a99"    
+    ],
     "lion_face":[
         "http://digitalcollections.nypl.org/items/510d47da-9eed-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47e2-24ea-a3d9-e040-e00a18064a99",
@@ -1809,8 +1812,12 @@
     "man-kiss-man": [
         "http://digitalcollections.nypl.org/items/510d47e3-b5a4-a3d9-e040-e00a18064a99"
     ],
-    "man-man-boy": [],
-    "man-man-boy-boy": [],
+    "man-man-boy": [
+        "http://digitalcollections.nypl.org/items/510d47e0-db9b-a3d9-e040-e00a18064a99"    
+    ],
+    "man-man-boy-boy": [
+        "http://digitalcollections.nypl.org/items/510d47e0-eb6e-a3d9-e040-e00a18064a99"
+    ],
     "man-man-girl": [],
     "man-man-girl-boy": [],
     "man-man-girl-girl": [],
@@ -1818,7 +1825,9 @@
         "http://digitalcollections.nypl.org/items/5e66b3e8-b7b0-d471-e040-e00a180654d7"    
     ],
     "man-woman-boy-boy": [],
-    "man-woman-girl": [],
+    "man-woman-girl": [
+        "http://digitalcollections.nypl.org/items/510d47df-1f42-a3d9-e040-e00a18064a99"    
+    ],
     "man-woman-girl-boy": [],
     "man-woman-girl-girl": [
         "http://digitalcollections.nypl.org/items/510d47df-950c-a3d9-e040-e00a18064a99"    
@@ -1837,7 +1846,8 @@
         "http://digitalcollections.nypl.org/items/510d47d9-623b-a3d9-e040-e00a18064a99"
     ],
     "mans_shoe":[
-        "http://digitalcollections.nypl.org/items/510d47e1-32be-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e1-32be-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47da-9b6e-a3d9-e040-e00a18064a99"
     ],
     "mantelpiece_clock": [],
     "maple_leaf":[
@@ -2213,7 +2223,9 @@
         "http://digitalcollections.nypl.org/items/510d47e4-702d-a3d9-e040-e00a18064a99"
     ],
     "pizza":[
-        "http://digitalcollections.nypl.org/items/ae6c1dd9-555e-f55a-e040-e00a18062565"
+        "http://digitalcollections.nypl.org/items/ae6c1dd9-555e-f55a-e040-e00a18062565",
+        "http://digitalcollections.nypl.org/items/ae2f51ec-bfc7-66c6-e040-e00a18066cf3",
+        "http://digitalcollections.nypl.org/items/ae6c1dd9-5876-f55a-e040-e00a18062565"
     ],
     "place_of_worship": [
         "http://digitalcollections.nypl.org/items/5e66b3e8-84db-d471-e040-e00a180654d7"    
@@ -2378,7 +2390,9 @@
         "http://digitalcollections.nypl.org/items/a6249ebc-895b-849c-e040-e00a18060616"    
     ],
     "rice_cracker": [],
-    "rice_scene": [],
+    "rice_scene": [
+        "http://digitalcollections.nypl.org/items/510d47e1-cc3a-a3d9-e040-e00a18064a99"    
+    ],
     "right_anger_bubble": [],
     "ring":[
         "http://digitalcollections.nypl.org/items/91557149-480a-b3a8-e040-e00a18066846",
@@ -2573,7 +2587,9 @@
         "http://digitalcollections.nypl.org/items/d9a432d0-e04a-0131-8623-58d385a7bbd0"
     ],
     "slot_machine": [],
-    "small_airplane": [],
+    "small_airplane": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-897b-d471-e040-e00a180654d7"
+    ],
     "small_blue_diamond": [],
     "small_orange_diamond": [],
     "small_red_triangle": [],
