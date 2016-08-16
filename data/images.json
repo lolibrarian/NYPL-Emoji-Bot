@@ -1367,7 +1367,11 @@
         "http://digitalcollections.nypl.org/items/510d47e4-7047-a3d9-e040-e00a18064a99"
     ],
     "ghost":[
-        "http://digitalcollections.nypl.org/items/fd54ee00-82b7-0130-a9f2-58d385a7bbd0"
+        "http://digitalcollections.nypl.org/items/fd54ee00-82b7-0130-a9f2-58d385a7bbd0",
+        "http://digitalcollections.nypl.org/items/510d47e2-c549-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e2-c54a-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e2-c54d-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e2-c507-a3d9-e040-e00a18064a99"
     ],
     "gift":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-8316-d471-e040-e00a180654d7",
