@@ -1589,7 +1589,9 @@
     "icecream":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-b580-d471-e040-e00a180654d7"
     ],
-    "id": [],
+    "id": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-bcea-d471-e040-e00a180654d7"    
+    ],
     "ideograph_advantage": [],
     "imp":[
         "http://digitalcollections.nypl.org/items/6012d410-82b9-0130-376c-58d385a7bbd0"
@@ -1799,7 +1801,9 @@
     "man":[
         "http://digitalcollections.nypl.org/items/510d47d9-c367-a3d9-e040-e00a18064a99"
     ],
-    "man-heart-man": [],
+    "man-heart-man": [
+        "http://digitalcollections.nypl.org/items/510d47e3-9627-a3d9-e040-e00a18064a99"    
+    ],
     "man-kiss-man": [
         "http://digitalcollections.nypl.org/items/510d47e3-b5a4-a3d9-e040-e00a18064a99"
     ],
@@ -1808,12 +1812,18 @@
     "man-man-girl": [],
     "man-man-girl-boy": [],
     "man-man-girl-girl": [],
-    "man-woman-boy": [],
+    "man-woman-boy": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-b7b0-d471-e040-e00a180654d7"    
+    ],
     "man-woman-boy-boy": [],
     "man-woman-girl": [],
     "man-woman-girl-boy": [],
-    "man-woman-girl-girl": [],
-    "man_and_woman_holding_hands": [],
+    "man-woman-girl-girl": [
+        "http://digitalcollections.nypl.org/items/510d47df-950c-a3d9-e040-e00a18064a99"    
+    ],
+    "man_and_woman_holding_hands": [
+        "http://digitalcollections.nypl.org/items/286a7aa0-024b-0133-d968-58d385a7bbd0"    
+    ],
     "man_in_business_suit_levitating":[
         "http://digitalcollections.nypl.org/items/510d47da-4ed6-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/b5cfbf49-a5a0-7548-e040-e00a18060aef"
@@ -3158,7 +3168,9 @@
     "woman":[
         "http://digitalcollections.nypl.org/items/510d47e2-f85f-a3d9-e040-e00a18064a99"
     ],
-    "woman-heart-woman": [],
+    "woman-heart-woman": [
+        "http://digitalcollections.nypl.org/items/510d47e3-8353-a3d9-e040-e00a18064a99"    
+    ],
     "woman-kiss-woman": [
         "http://digitalcollections.nypl.org/items/510d47e3-960e-a3d9-e040-e00a18064a99"    
     ],
