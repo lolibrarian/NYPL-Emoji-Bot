@@ -834,7 +834,11 @@
         "http://digitalcollections.nypl.org/items/510d47e3-2b0c-a3d9-e040-e00a18064a99"
     ],
     "door":[
-        "http://digitalcollections.nypl.org/items/af816b78-c7c5-c09e-e040-e00a18062945"
+        "http://digitalcollections.nypl.org/items/af816b78-c7c5-c09e-e040-e00a18062945",
+        "http://digitalcollections.nypl.org/items/aea7cced-6f65-982c-e040-e00a1806318e",
+        "http://digitalcollections.nypl.org/items/aea7cced-6f14-982c-e040-e00a1806318e",
+        "http://digitalcollections.nypl.org/items/aea7cced-6f29-982c-e040-e00a1806318e",
+        "http://digitalcollections.nypl.org/items/aea7cced-7137-982c-e040-e00a1806318e"
     ],
     "double_vertical_bar": [],
     "doughnut":[
@@ -876,7 +880,9 @@
         "http://digitalcollections.nypl.org/items/b631aa51-b8a6-847c-e040-e00a18064b4a"
     ],
     "egg":[
-        "http://digitalcollections.nypl.org/items/510d47de-3b0b-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47de-3b0b-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47de-3881-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/5e66b3e9-29d8-d471-e040-e00a180654d7"
     ],
     "eggplant":[
         "http://digitalcollections.nypl.org/items/510d47e2-f5a8-a3d9-e040-e00a18064a99",
@@ -1268,7 +1274,12 @@
         "http://digitalcollections.nypl.org/items/510d47da-4eff-a3d9-e040-e00a18064a99"
     ],
     "fleur_de_lis":[
-        "http://digitalcollections.nypl.org/items/510d47e0-d0d9-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e0-d0d9-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e1-0183-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e1-0181-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e1-0184-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e1-018e-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e4-411e-a3d9-e040-e00a18064a99"
     ],
     "flipper": [],
     "floppy_disk": [],
@@ -2231,7 +2242,9 @@
         "http://digitalcollections.nypl.org/items/510d47d9-b22b-a3d9-e040-e00a18064a99"
     ],
     "poultry_leg":[
-        "http://digitalcollections.nypl.org/items/510d47e3-6485-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e3-6485-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-bfe5-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-eea7-d471-e040-e00a180654d7"
     ],
     "pound": [],
     "pouting_cat":[
