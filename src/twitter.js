@@ -20,6 +20,19 @@ const Twitter = {
 
   stream: () => {
     return twit.stream('user');
+  },
+
+  isMentioned: (payload, screen_name) => {
+    screen_name = screen_name || process.env.TWITTER_SCREEN_NAME;
+    var mentions = payload.entities.user_mentions;
+
+    return !!mentions.find((mention) => {
+      return mention.screen_name === screen_name;
+    });
+  },
+
+  isRetweet: (payload) => {
+    return !!payload.retweeted_status;
   }
 };
 

@@ -9,7 +9,7 @@ let stream = Twitter.stream();
 stream.on('tweet', (payload) => {
   let status_id = payload.id_str;
 
-  if (isReply(payload)) {
+  if (shouldReply(payload)) {
     let image = new Images().getFromText(payload.text);
     if (!image) { return; }
 
@@ -22,6 +22,6 @@ stream.on('error', (payload) => {
   console.error(payload);
 });
 
-function isReply(payload) {
-  return payload.in_reply_to_screen_name === process.env.TWITTER_SCREEN_NAME;
+function shouldReply(payload) {
+  return Twitter.isMentioned(payload) && !Twitter.isRetweet(payload);
 }
