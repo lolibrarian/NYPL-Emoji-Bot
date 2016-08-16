@@ -821,10 +821,20 @@
     ],
     "dog":[
         "http://digitalcollections.nypl.org/items/510d47e1-43b1-a3d9-e040-e00a18064a99",
-        "http://digitalcollections.nypl.org/items/510d47da-05a8-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47da-05a8-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47da-c980-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-20e7-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/5da15340-964a-0130-1b3f-58d385a7bbd0",
+        "http://digitalcollections.nypl.org/items/53460140-e04c-0131-32c5-58d385a7bbd0",
+        "http://digitalcollections.nypl.org/items/510d47db-c4d3-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/c3903dcb-c932-6201-e040-e00a180642e6",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-c083-d471-e040-e00a180654d7"
     ],
     "dog2":[
-        "http://digitalcollections.nypl.org/items/510d47dd-bd98-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47dd-bd98-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47da-9277-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e2-3c8a-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/b153a2d9-9cbc-2146-e040-e00a18062823"
     ],
     "dollar":[
         "http://digitalcollections.nypl.org/items/510d47e3-5334-a3d9-e040-e00a18064a99"
@@ -2417,8 +2427,10 @@
     "robot_face":[
         "http://digitalcollections.nypl.org/items/510d47dd-fc66-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47da-93ab-a3d9-e040-e00a18064a99",
-        "http://digitalcollections.nypl.org/items/510d47da-935b-a3d9-e040-e00a18064a99",
-        "http://digitalcollections.nypl.org/items/5e66b3e8-7baf-d471-e040-e00a180654d7"
+        "http://digitalcollections.nypl.org/items/5e66b3e8-7baf-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e9-0600-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-f10f-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-e548-d471-e040-e00a180654d7"
     ],
     "rocket":[
         "http://digitalcollections.nypl.org/items/5e66b3e9-05fc-d471-e040-e00a180654d7",
