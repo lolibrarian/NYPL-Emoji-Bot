@@ -921,7 +921,9 @@
         "http://digitalcollections.nypl.org/items/aa16d2ae-7561-3443-e040-e00a18067692"    
     ],
     "eye":[
-        "http://digitalcollections.nypl.org/items/5e66b3e8-6c2e-d471-e040-e00a180654d7"
+        "http://digitalcollections.nypl.org/items/5e66b3e8-6c2e-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e9-27b1-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/5e66b3e8-ebf2-d471-e040-e00a180654d7"
     ],
     "eyeglasses":[
         "http://digitalcollections.nypl.org/items/510d47d9-be15-a3d9-e040-e00a18064a99"
@@ -1514,7 +1516,6 @@
     ],
     "high_brightness": [],
     "high_heel":[
-        "http://digitalcollections.nypl.org/items/510d47d9-cb49-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/893c0fe7-82ee-ad5f-e040-e00a18064278"
     ],
     "hocho":[
@@ -3140,7 +3141,10 @@
         "http://digitalcollections.nypl.org/items/510d47db-d0d1-a3d9-e040-e00a18064a99"
     ],
     "white_check_mark": [],
-    "white_circle": [],
+    "white_circle": [
+        "http://digitalcollections.nypl.org/items/5e66b3e9-2730-d471-e040-e00a180654d7",
+        "http://digitalcollections.nypl.org/items/510d47dc-4405-a3d9-e040-e00a18064a99"
+    ],
     "white_flower":[
         "http://digitalcollections.nypl.org/items/510d47e1-cae3-a3d9-e040-e00a18064a99"
     ],
