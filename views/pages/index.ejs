@@ -15,7 +15,9 @@
   <ul>
     <li>📛 name of emoji</li>
   <% Images.forEach(function(r) { %>
-    <li><%= r.id %> - <%= r.name %></li>
+    <% if (r.length == 0) { %>
+    <li><%= r %></li>
+    <% } %>
   <% }); %>
   </ul>
 
