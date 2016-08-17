@@ -1,0 +1,23 @@
+<%
+
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYPL Emoji Bot</title>
+</head>
+
+<body>
+
+  <h1>Missing Emoji List</h1>
+
+  <ul>
+    <li>📛 name of emoji</li>
+  <% Images.forEach(function(r) { %>
+    <li><%= r.id %> - <%= r.name %></li>
+  <% }); %>
+  </ul>
+
+</body>
+</html>
