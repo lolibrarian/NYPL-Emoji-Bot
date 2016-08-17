@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.get('/', function(request, response) {
+app.get('/missing', function(request, response) {
 
   const Images = require(__dirname + '/src/images');
   const Image = require(__dirname + '/src/image');
