@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'Starting Slack bot'
+
+node script/slack_bot.js

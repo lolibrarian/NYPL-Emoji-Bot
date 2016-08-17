@@ -24,6 +24,15 @@ class Images {
 
     return getImage(this.records, emoji_name);
   }
+  
+  getFromName(emoji_name) {
+    return getImage(this.records, emoji_name);
+  }
+  
+  shortcodeRegex() {
+    let emoji_shortcodes = Object.keys(data);
+    return '/:' + emoji_shortcodes.join(':|:') + ':/';
+  }
 }
 
 function getFirstEmojiName(message) {
