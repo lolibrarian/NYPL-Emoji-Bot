@@ -11,14 +11,14 @@
 <body>
 
   <h1>Missing Emoji List</h1>
-
+<%= Images.getRandom() %>
   <ul>
     <li>📛 name of emoji</li>
-  <% Images.forEach(function(r) { %>
-    <% if (r.length == 0) { %>
-    <li><%= r %></li>
+  <% for (var emoji in Images.records) { %>
+    <% if (Images.hasOwnProperty(emoji) && Images[emoji].length == 0) { %>
     <% } %>
-  <% }); %>
+    <li><%= Images[emoji] %></li>
+  <% } %>
   </ul>
 
 </body>
