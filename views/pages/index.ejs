@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYPL Emoji Bot</title>
+</head>
+
+<body>
+
+  <h1>Missing Emoji List</h1>
+  <ul>
+  <% for (var emoji in images.records) { %>
+    <% if (images.records.hasOwnProperty(emoji) && images.records[emoji].length == 0) { %>
+    <li><%= new Image(emoji, "") %> <%= emoji %></li>
+    <% } %>
+  <% } %>
+  </ul>
+
+</body>
+</html>

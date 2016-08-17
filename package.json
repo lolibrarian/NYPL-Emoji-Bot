@@ -21,11 +21,14 @@
   "devDependencies": {
     "eslint": "^3.3.0",
     "foreman": "^1.4.1",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "scripts": {
     "test": "`npm bin`/eslint . && `npm bin`/mocha",
     "status": "`npm bin`/nf run bin/status",
-    "reply": "`npm bin`/nf run bin/reply"
+    "reply": "`npm bin`/nf run bin/reply",
+    "start": "node index.js"
   }
 }
