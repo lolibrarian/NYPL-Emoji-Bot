@@ -1,7 +1,3 @@
-<%
-
-
-%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,13 +7,11 @@
 <body>
 
   <h1>Missing Emoji List</h1>
-<%= Images.getRandom() %>
   <ul>
-    <li>📛 name of emoji</li>
-  <% for (var emoji in Images.records) { %>
-    <% if (Images.hasOwnProperty(emoji) && Images[emoji].length == 0) { %>
+  <% for (var emoji in images.records) { %>
+    <% if (images.records.hasOwnProperty(emoji) && images.records[emoji].length == 0) { %>
+    <li><%= new Image(emoji, "") %> <%= emoji %></li>
     <% } %>
-    <li><%= Images[emoji] %></li>
   <% } %>
   </ul>
 

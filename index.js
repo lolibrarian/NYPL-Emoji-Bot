@@ -14,8 +14,9 @@ app.set('view engine', 'ejs');
 app.get('/', function(request, response) {
 
   const Images = require(__dirname + '/src/images');
+  const Image = require(__dirname + '/src/image');
 
-  response.render('pages/index', {title: "hi", Images: Images});
+  response.render('pages/index', {images: new Images(), Image: Image});
 });
 
 app.listen(app.get('port'), function() {
