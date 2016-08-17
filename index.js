@@ -16,7 +16,7 @@ app.get('/missing', function(request, response) {
   const Images = require(__dirname + '/src/images');
   const Image = require(__dirname + '/src/image');
 
-  response.render('pages/index', {images: new Images(), Image: Image});
+  response.render('pages/index', { images: new Images(), Image: Image });
 });
 
 app.listen(app.get('port'), function() {
