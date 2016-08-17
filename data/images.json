@@ -196,7 +196,11 @@
         "http://digitalcollections.nypl.org/items/62ed7b00-a107-0132-c608-58d385a7b928"
     ],
     "baseball":[
-        "http://digitalcollections.nypl.org/items/510d47d9-a9f9-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47d9-a9f9-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47d9-c0e5-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47d9-c101-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47d9-c08f-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e4-0fee-a3d9-e040-e00a18064a99"
     ],
     "basketball":[
         "http://digitalcollections.nypl.org/items/5e66b3e9-2840-d471-e040-e00a180654d7"
@@ -232,8 +236,13 @@
     "beers":[
         "http://digitalcollections.nypl.org/items/510d47e2-e51f-a3d9-e040-e00a18064a99"
     ],
-    "beetle": [],
-    "beginner": [],
+    "beetle": [
+        "http://digitalcollections.nypl.org/items/510d47e1-26d8-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e1-2b28-a3d9-e040-e00a18064a99"
+    ],
+    "beginner": [
+        "http://digitalcollections.nypl.org/items/510d47db-c934-a3d9-e040-e00a18064a99"    
+    ],
     "bell":[
         "http://digitalcollections.nypl.org/items/510d47d9-a62e-a3d9-e040-e00a18064a99"
     ],
@@ -251,7 +260,8 @@
         "http://digitalcollections.nypl.org/items/510d47de-4b8d-a3d9-e040-e00a18064a99"
     ],
     "bikini":[
-        "http://digitalcollections.nypl.org/items/8d7d24d3-d51d-f0f2-e040-e00a18065a91"
+        "http://digitalcollections.nypl.org/items/8d7d24d3-d51d-f0f2-e040-e00a18065a91",
+        "http://digitalcollections.nypl.org/items/510d47e2-c063-a3d9-e040-e00a18064a99"
     ],
     "biohazard_sign":[
         "http://digitalcollections.nypl.org/items/510d47e0-208e-a3d9-e040-e00a18064a99"
@@ -369,7 +379,8 @@
         "http://digitalcollections.nypl.org/items/510d47e0-f018-a3d9-e040-e00a18064a99"
     ],
     "broken_heart":[
-        "http://digitalcollections.nypl.org/items/510d47da-708e-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47da-708e-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47de-184a-a3d9-e040-e00a18064a99"
     ],
     "bug":[
         "http://digitalcollections.nypl.org/items/510d47d9-79d0-a3d9-e040-e00a18064a99"
@@ -1751,7 +1762,9 @@
     "ledger":[
         "http://digitalcollections.nypl.org/items/28ba45d0-ba67-0130-4c75-58d385a7b928"
     ],
-    "left_luggage": [],
+    "left_luggage": [
+        "http://digitalcollections.nypl.org/items/5e66b3e8-9a8e-d471-e040-e00a180654d7"    
+    ],
     "left_right_arrow": [],
     "left_speech_bubble": [],
     "leftwards_arrow_with_hook": [],
@@ -1829,8 +1842,13 @@
     "mailbox_closed":[
         "http://digitalcollections.nypl.org/items/86c7de60-08a5-0133-21a7-58d385a7bbd0"
     ],
-    "mailbox_with_mail": [],
-    "mailbox_with_no_mail": [],
+    "mailbox_with_mail": [
+        "http://digitalcollections.nypl.org/items/510d47e3-6184-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47d9-3d34-a3d9-e040-e00a18064a99"
+    ],
+    "mailbox_with_no_mail": [
+        "http://digitalcollections.nypl.org/items/510d47dd-8634-a3d9-e040-e00a18064a99"    
+    ],
     "man":[
         "http://digitalcollections.nypl.org/items/510d47d9-c367-a3d9-e040-e00a18064a99"
     ],
@@ -1935,7 +1953,8 @@
     "money_mouth_face": [],
     "money_with_wings": [],
     "moneybag":[
-        "http://digitalcollections.nypl.org/items/510d47e2-331e-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e2-331e-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/7456f4d0-bb89-0132-37ab-58d385a7bbd0"
     ],
     "monkey":[
         "http://digitalcollections.nypl.org/items/510d47d9-6ce5-a3d9-e040-e00a18064a99"
@@ -2458,7 +2477,9 @@
         "http://digitalcollections.nypl.org/items/510d47e3-7872-a3d9-e040-e00a18064a99"
     ],
     "rose":[
-        "http://digitalcollections.nypl.org/items/510d47da-ce9c-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47da-ce9c-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-4175-a3d9-e040-e00a18064a99",
+        "http://digitalcollections.nypl.org/items/510d47e3-65be-a3d9-e040-e00a18064a99"
     ],
     "rosette":[
         "http://digitalcollections.nypl.org/items/510d47e1-1620-a3d9-e040-e00a18064a99"
@@ -3171,7 +3192,8 @@
         "http://digitalcollections.nypl.org/items/510d47db-cd91-a3d9-e040-e00a18064a99"
     ],
     "weary": [
-        "http://digitalcollections.nypl.org/items/510d47e2-f6f9-a3d9-e040-e00a18064a99"    
+        "http://digitalcollections.nypl.org/items/510d47e2-f6f9-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e3-7853-a3d9-e040-e00a18064a99"
     ],
     "wedding":[
         "http://digitalcollections.nypl.org/items/510d47e2-d1a7-a3d9-e040-e00a18064a99",
