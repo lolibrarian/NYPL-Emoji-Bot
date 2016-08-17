@@ -5,7 +5,7 @@ const Image = require('../src/image');
 const Tweet = require('../src/tweet');
 
 describe('Tweet', () => {
-  let image = new Image('scream', 'http://example.com');
+  let image = new Image('😱', 'http://example.com');
   let tweet = new Tweet(image);
 
   describe('#getStatus()', () => {

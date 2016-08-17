@@ -2,7 +2,7 @@
 
 const Images = require('../src/images');
 
-let character = process.argv[2];
-let image = new Images().getFromText(character);
+let text = process.argv[2];
+let image = new Images().getFromText(text);
 
 console.log(image);

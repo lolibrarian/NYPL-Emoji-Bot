@@ -1,11 +1,9 @@
 'use strict';
 
-const emoji = require('node-emoji');
-const emojiRegex = require('emoji-regex');
-
 const data = require('../data/images');
 const Image = require('./image');
 const Incomplete = require('./incomplete');
+const firstBy = require('thenby');
 
 class Images {
   constructor (records) {
@@ -13,62 +11,52 @@ class Images {
   }
 
   getRandom() {
-    let records = rejectIncomplete(this.records);
-    let emoji_name = randomMember(Object.keys(records));
+    let keys = getCompleteKeys(this.records);
+    let key = randomMember(keys);
 
-    return getImage(records, emoji_name);
+    return getImage(this.records, key);
   }
 
   getFromText(text) {
-    let emoji_name = getFirstEmojiName(text);
+    let keys = getSortedKeys(this.records);
 
-    return getImage(this.records, emoji_name);
+    let key = keys.find((key) => {
+      return text.indexOf(key) !== -1;
+    });
+
+    return getImage(this.records, key);
   }
 }
 
-function getFirstEmojiName(message) {
-  let matches = message.match(emojiRegex());
-  if (!matches) { return null; }
-
-  let character = matches[0];
-  let name = emoji.which(character);
-
-  // workaround for omnidan/node-emoji#21
-  if (name.startsWith('flag-')) { return null; }
-
-  return name;
-}
-
-function getImage(records, emoji_name) {
-  let urls = records[emoji_name];
+function getImage(records, key) {
+  let urls = records[key];
 
   if (urls === undefined) {
     return null; // record not found
   } else if (urls.length === 0) {
-    return new Incomplete(emoji_name);
+    return new Incomplete(key);
   }
 
   let url = randomMember(urls);
 
-  return new Image(emoji_name, url);
+  return new Image(key, url);
 }
 
 function randomMember(array) {
   return array[array.length * Math.random() << 0];
 }
 
-function rejectIncomplete(records) {
-  let result = {};
-
-  Object.keys(records).map((emoji_name) => {
-    let urls = records[emoji_name];
-
-    if (urls.length > 0) {
-      result[emoji_name] = urls;
-    }
+function getCompleteKeys(records) {
+  return Object.keys(records).filter((key) => {
+    return records[key].length > 0;
   });
+}
 
-  return result;
+function getSortedKeys(records) {
+  return Object.keys(records).sort(
+    firstBy((a, b) => { return b.length - a.length; })
+    .thenBy((a, b) => { return records[b].length - records[a].length; })
+  );
 }
 
 module.exports = Images;

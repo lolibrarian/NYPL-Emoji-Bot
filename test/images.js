@@ -6,62 +6,76 @@ const Images = require('../src/images');
 describe('Images', () => {
   describe('#getRandom()', () => {
     let records = {
-      scream: [ 'http://example.com' ]
+      '😱': [ 'http://example.com' ]
     };
-    let finder = new Images(records);
 
     it('should return an image', () => {
-      let image = finder.getRandom();
+      let images = new Images(records);
+      let image = images.getRandom();
 
       assert.equal(image.toString(), '😱 http://example.com');
     });
   });
 
   describe('#getFromText', () => {
-    let records = {
-      scream: [ 'http://example.com/scream' ],
-      '+1': [ 'http://example.com/+1' ],
-      gear: [], // record incomplete
-      'flag-ma': [ 'http://example.com/wrong' ] // should be ignored
-    };
-    let finder = new Images(records);
-
     describe('emoji present', () => {
       describe('record found and complete', () => {
-        it('should return an image', () => {
-          let image = finder.getFromText('@some_bot 😱');
+        describe('sequence length', () => {
+          let records = {
+            // shorter sequences should be skipped:
+            '👩': [ 'http://example.com/woman' ],
+            '👦': [ 'http://example.com/boy' ],
+            '👩‍👦': [ 'http://example.com/family-woman-boy' ],
+            // in favor of longer ones:
+            '👩‍👦‍👦': [ 'http://example.com/family-woman-woman-boy' ]
+          };
 
-          assert.equal(image.toString(), '😱 http://example.com/scream');
+          it('should return a longer sequence over a shorter one', () => {
+            let images = new Images(records);
+            let image = images.getFromText('@some_bot 👩‍👦‍👦');
+
+            assert.equal(image.toString(), '👩‍👦‍👦 http://example.com/family-woman-woman-boy');
+          });
         });
-      });
 
-      describe('with modifier', () => {
-        it('should return an image without the modifier', () => {
-          let image = finder.getFromText('@some_bot 👍🏿');
+        describe('URL length', () => {
+          let records = {
+            // incomplete records should be skipped:
+            '🏿': [],
+            // in favor of complete ones:
+            '👍': [ 'http://example.com/+1' ]
+          };
 
-          assert.equal(image.toString(), '👍 http://example.com/+1');
+          it('should return a complete record over an incomplete one', () => {
+            let images = new Images(records);
+            let image = images.getFromText('@some_bot 👍🏿');
+
+            assert.equal(image.toString(), '👍 http://example.com/+1');
+          });
         });
       });
 
       describe('record found, but incomplete', () => {
+        let records = {
+          '⚙': []
+        };
+
         it('should return a "Not Found" message', () => {
-          let image = finder.getFromText('@some_bot ⚙');
+          let images = new Images(records);
+          let image = images.getFromText('@some_bot ⚙');
 
           assert.equal(image.toString(), '⚙ ¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
         });
       });
 
       describe('record not found', () => {
+        let records = {
+          '😱': [ 'http://example.com/scream' ],
+        };
+
         it('should return null', () => {
-          let image = finder.getFromText('@some_bot 😖');
-
-          assert.equal(image, null);
-        });
-      });
-
-      describe('flag', () => {
-        it('is ignored', () => {
-          let image = finder.getFromText('@some_bot 🇲🇽');
+          let images = new Images(records);
+          let image = images.getFromText('@some_bot 😖');
 
           assert.equal(image, null);
         });
@@ -69,9 +83,13 @@ describe('Images', () => {
     });
 
     describe('emoji absent', () => {
+      let records = {
+        '😱': [ 'http://example.com/scream' ],
+      };
+
       it('should return null', () => {
-        let finder = new Images(records);
-        let image = finder.getFromText('@some_bot hello');
+        let images = new Images(records);
+        let image = images.getFromText('@some_bot hello');
 
         assert.equal(image, null);
       });
