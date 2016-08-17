@@ -4,7 +4,7 @@
   <img src='https://api.travis-ci.org/lolibrarian/NYPL-Emoji-Bot.png' alt='Travis CI build status' />
 </a>
 
-The source code for the [NYPL Emoji Bot](https://twitter.com/NYPLEmoji)
+The source code for the [NYPL Emoji Bot](https://twitter.com/NYPLEmoji). This fork provides the same functionality, but as a Slack bot.
 
 ## Configuration
 
@@ -20,27 +20,17 @@ The source code for the [NYPL Emoji Bot](https://twitter.com/NYPLEmoji)
   cp .env.example .env
   ```
 
-2. [Get credentials for your bot](https://dev.twitter.com/) and complete the `.env`
+2. [Get credentials for your bot](https://slack.com/apps/manage/custom-integrations) and complete the `.env`
 
 ## Usage
 
-### To post a status
+### To start the Slack bot
 
 ```shell
-npm run status
+npm run slack
 ```
 
-### To reply to replies
-
-```shell
-npm run reply
-```
-
-### Testing
-
-```shell
-npm test
-```
+Then either start a direct message with your bot, or invite it to a channel and say, e.g. "@nyplemojibot :hand:".
 
 ## Contributing
 
