@@ -2888,7 +2888,9 @@
     "tea":[
         "http://digitalcollections.nypl.org/items/510d47dc-3eea-a3d9-e040-e00a18064a99"
     ],
-    "telephone": [],
+    "telephone": [
+        "http://digitalcollections.nypl.org/items/510d47d9-b17d-a3d9-e040-e00a18064a99"
+    ],
     "telephone_receiver":[
         "http://digitalcollections.nypl.org/items/5e66b3e8-ee59-d471-e040-e00a180654d7"
     ],
