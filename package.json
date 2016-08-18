@@ -28,6 +28,6 @@
     "test": "`npm bin`/eslint . && `npm bin`/mocha",
     "status": "`npm bin`/nf run bin/status",
     "reply": "`npm bin`/nf run bin/reply",
-    "start": "node index.js"
+    "missing": "`npm bin`/nf run bin/missing"
   }
 }
