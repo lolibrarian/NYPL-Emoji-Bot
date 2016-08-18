@@ -7,7 +7,7 @@ let missing = [];
 
 for (var emoji in images.records) {
   if (images.records.hasOwnProperty(emoji) && images.records[emoji].length == 0) {
-    missing.push( emoji );
+    missing.push(emoji);
   }
 }
 
