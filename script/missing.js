@@ -1,7 +1,6 @@
 'use strict';
 
 const Images = require('../src/images');
-const Image = require('../src/image');
 
 let images = new Images();
 let missing = [];
