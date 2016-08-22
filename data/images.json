@@ -353,9 +353,11 @@
         "http://digitalcollections.nypl.org/items/8011f340-ea71-0131-52ba-58d385a7bbd0"
     ],
     "✂️": [
-        "http://digitalcollections.nypl.org/items/510d47d9-acc2-a3d9-e040-e00a18064a99"
+        "http://digitalcollections.nypl.org/items/510d47e0-fff0-a3d9-e040-e00a18064a99"
     ],
-    "✅": [],
+    "✅": [
+         "http://digitalcollections.nypl.org/items/510d47da-5865-a3d9-e040-e00a18064a99"    
+    ],
     "✈️": [
         "http://digitalcollections.nypl.org/items/510d47da-94fe-a3d9-e040-e00a18064a99",
         "http://digitalcollections.nypl.org/items/510d47da-94f0-a3d9-e040-e00a18064a99"
@@ -387,9 +389,15 @@
     "✔️": [
         "http://digitalcollections.nypl.org/items/510d47da-5865-a3d9-e040-e00a18064a99"
     ],
-    "✖️": [],
-    "✝": [],
-    "✡": [],
+    "✖️": [
+        "http://digitalcollections.nypl.org/items/510d47df-b70a-a3d9-e040-e00a18064a99"    
+    ],
+    "✝": [
+        "http://digitalcollections.nypl.org/items/510d47e1-2424-a3d9-e040-e00a18064a99"    
+    ],
+    "✡": [
+        "http://digitalcollections.nypl.org/items/510d47db-b6c3-a3d9-e040-e00a18064a99"    
+    ],
     "✨": [
         "http://digitalcollections.nypl.org/items/893c0fe7-81f4-ad5f-e040-e00a18064278"
     ],
@@ -402,9 +410,15 @@
     "❄️": [
         "http://digitalcollections.nypl.org/items/510d47e3-9ac2-a3d9-e040-e00a18064a99"
     ],
-    "❇️": [],
-    "❌": [],
-    "❎": [],
+    "❇️": [
+        "http://digitalcollections.nypl.org/items/510d47e1-9f58-a3d9-e040-e00a18064a99"    
+    ],
+    "❌": [
+        "http://digitalcollections.nypl.org/items/510d47df-b70a-a3d9-e040-e00a18064a99"    
+    ],
+    "❎": [
+         "http://digitalcollections.nypl.org/items/510d47df-b70a-a3d9-e040-e00a18064a99"    
+    ],
     "❓": [
         "http://digitalcollections.nypl.org/items/c6d5d0ca-e348-54db-e040-e00a18063df6",
         "http://digitalcollections.nypl.org/items/c6d5d0ca-e348-54db-e040-e00a18063df6"
@@ -412,7 +426,9 @@
     "❔": [
         "http://digitalcollections.nypl.org/items/510d47df-ef6c-a3d9-e040-e00a18064a99"
     ],
-    "❕": [],
+    "❕": [
+         "http://digitalcollections.nypl.org/items/328382e0-ae26-0131-34f1-58d385a7b928"        
+    ],
     "❗️": [
         "http://digitalcollections.nypl.org/items/328382e0-ae26-0131-34f1-58d385a7b928"    
     ],
@@ -447,7 +463,9 @@
     ],
     "⬜️": [],
     "⭐️": [],
-    "⭕️": [],
+    "⭕️": [
+        "http://digitalcollections.nypl.org/items/1be56670-c75d-0132-4c1b-58d385a7bbd0"    
+    ],
     "〰️": [
         "http://digitalcollections.nypl.org/items/510d47da-9246-a3d9-e040-e00a18064a99"
     ],
@@ -1371,7 +1389,7 @@
         "http://digitalcollections.nypl.org/items/510d47da-d198-a3d9-e040-e00a18064a99"
     ],
     "🎰": [
-        "http://digitalcollections.nypl.org/items/510d47d9-a3fd-a3d9-e040-e00a18064a99"    
+        "http://digitalcollections.nypl.org/items/739cdb40-a9db-0130-5616-58d385a7b928"    
     ],
     "🎱": [
         "http://digitalcollections.nypl.org/items/510d47de-7680-a3d9-e040-e00a18064a99",
