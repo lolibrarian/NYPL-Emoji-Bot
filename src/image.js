@@ -6,8 +6,12 @@ class Image {
     this.url = url;
   }
 
+  getKey() {
+    return this.key;
+  }
+
   toString() {
-    return `${this.key} ${this.url}`;
+    return this.url;
   }
 }
 

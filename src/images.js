@@ -2,7 +2,7 @@
 
 const data = require('../data/images');
 const Image = require('./image');
-const Incomplete = require('./incomplete');
+const ImageIncomplete = require('./image_incomplete');
 const firstBy = require('thenby');
 
 class Images {
@@ -34,7 +34,7 @@ function getImage(records, key) {
   if (urls === undefined) {
     return null; // record not found
   } else if (urls.length === 0) {
-    return new Incomplete(key);
+    return new ImageIncomplete(key);
   }
 
   let url = randomMember(urls);
