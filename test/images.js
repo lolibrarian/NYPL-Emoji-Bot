@@ -13,7 +13,8 @@ describe('Images', () => {
       let images = new Images(records);
       let image = images.getRandom();
 
-      assert.equal(image.toString(), '😱 http://example.com');
+      assert.equal(image.getKey(), '😱');
+      assert.equal(image.toString(), 'http://example.com');
     });
   });
 
@@ -34,7 +35,8 @@ describe('Images', () => {
             let images = new Images(records);
             let image = images.getFromText('@some_bot 👩‍👦‍👦');
 
-            assert.equal(image.toString(), '👩‍👦‍👦 http://example.com/family-woman-woman-boy');
+            assert.equal(image.getKey(), '👩‍👦‍👦');
+            assert.equal(image.toString(), 'http://example.com/family-woman-woman-boy');
           });
         });
 
@@ -50,7 +52,8 @@ describe('Images', () => {
             let images = new Images(records);
             let image = images.getFromText('@some_bot 👍🏿');
 
-            assert.equal(image.toString(), '👍 http://example.com/+1');
+            assert.equal(image.getKey(), '👍');
+            assert.equal(image.toString(), 'http://example.com/+1');
           });
         });
       });
@@ -64,7 +67,8 @@ describe('Images', () => {
           let images = new Images(records);
           let image = images.getFromText('@some_bot ⚙');
 
-          assert.equal(image.toString(), '⚙ ¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
+          assert.equal(image.getKey(), '⚙');
+          assert.equal(image.toString(), '¯\\_(ツ)_/¯ Try searching digitalcollections.nypl.org for that!');
         });
       });
 

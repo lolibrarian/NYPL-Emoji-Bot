@@ -24,7 +24,7 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "test": "`npm bin`/eslint . && `npm bin`/mocha",
+    "test": "`npm bin`/eslint . && `npm bin`/mocha --recursive",
     "status": "`npm bin`/nf run bin/status",
     "reply": "`npm bin`/nf run bin/reply",
     "missing": "`npm bin`/nf run bin/missing"

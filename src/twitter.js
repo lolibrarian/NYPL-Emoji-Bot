@@ -10,29 +10,16 @@ const twit = new Twit({
 });
 
 const Twitter = {
-  post: (message) => {
-    update({ status: message });
+  post: (status_tweet) => {
+    update({ status: status_tweet.getText() });
   },
 
-  reply: (message, to_status_id) => {
-    update({ status: message, in_reply_to_status_id: to_status_id });
+  reply: (reply_tweet) => {
+    update({ status: reply_tweet.getText(), in_reply_to_status_id: reply_tweet.getInReplyToStatusID() });
   },
 
   stream: () => {
     return twit.stream('user');
-  },
-
-  isMentioned: (payload, screen_name) => {
-    screen_name = screen_name || process.env.TWITTER_SCREEN_NAME;
-    var mentions = payload.entities.user_mentions;
-
-    return !!mentions.find((mention) => {
-      return mention.screen_name === screen_name;
-    });
-  },
-
-  isRetweet: (payload) => {
-    return !!payload.retweeted_status;
   }
 };
 
