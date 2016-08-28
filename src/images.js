@@ -1,6 +1,7 @@
 'use strict';
 
 const data = require('../data/images');
+const blacklist = require('../data/blacklist');
 const Image = require('./image');
 const ImageIncomplete = require('./image_incomplete');
 const firstBy = require('thenby');
@@ -11,8 +12,9 @@ class Images {
   }
 
   getRandom() {
-    let keys = getCompleteKeys(this.records);
-    let key = randomMember(keys);
+    let completeKeys = getCompleteKeys(this.records);
+    let allowedKeys = getAllowedKeys(completeKeys);
+    let key = randomMember(allowedKeys);
 
     return getImage(this.records, key);
   }
@@ -49,6 +51,12 @@ function randomMember(array) {
 function getCompleteKeys(records) {
   return Object.keys(records).filter((key) => {
     return records[key].length > 0;
+  });
+}
+
+function getAllowedKeys(keys) {
+  return keys.filter((key) => {
+    return blacklist.indexOf(key) === -1;
   });
 }
 
