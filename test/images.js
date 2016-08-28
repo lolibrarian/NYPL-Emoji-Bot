@@ -5,16 +5,31 @@ const Images = require('../src/images');
 
 describe('Images', () => {
   describe('#getRandom()', () => {
-    let records = {
-      '😱': [ 'http://example.com' ]
-    };
+    describe('not blacklisted', () => {
+      let records = {
+        '😱': [ 'http://example.com' ]
+      };
 
-    it('should return an image', () => {
-      let images = new Images(records);
-      let image = images.getRandom();
+      it('should return an image', () => {
+        let images = new Images(records);
+        let image = images.getRandom();
 
-      assert.equal(image.getKey(), '😱');
-      assert.equal(image.toString(), 'http://example.com');
+        assert.equal(image.getKey(), '😱');
+        assert.equal(image.toString(), 'http://example.com');
+      });
+    });
+
+    describe('blacklisted', () => {
+      let records = {
+        '🔫': [ 'http://example.com' ]
+      };
+
+      it('should return null', () => {
+        let images = new Images(records);
+        let image = images.getRandom();
+
+        assert.equal(image, null);
+      });
     });
   });
 
