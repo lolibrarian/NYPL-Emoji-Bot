@@ -6,6 +6,8 @@ const Image = require('./image');
 const ImageIncomplete = require('./image_incomplete');
 const firstBy = require('thenby');
 
+const VARIATION_SELECTOR_MATCHER = /\uFE0F$/;
+
 class Images {
   constructor (records) {
     this.records = records || data;
@@ -23,6 +25,8 @@ class Images {
     let keys = getSortedKeys(this.records);
 
     let key = keys.find((key) => {
+      key = getBaseCodepoint(key);
+
       return text.indexOf(key) !== -1;
     });
 
@@ -65,6 +69,21 @@ function getSortedKeys(records) {
     firstBy((a, b) => { return b.length - a.length; })
     .thenBy((a, b) => { return records[b].length - records[a].length; })
   );
+}
+
+/**
+ * Get the base codepoint, without the VS16 variation selector
+ *
+ * When searching, matching against the base character casts a wider net than the full emoji. In some cases, on some
+ * platforms, they're visually identical.
+ *
+ * For more information, please see: https://en.wikipedia.org/wiki/Emoji#Emoji_versus_text_presentation
+ *
+ * @param  {String} character
+ * @return {String}
+ */
+function getBaseCodepoint(character) {
+  return character.replace(VARIATION_SELECTOR_MATCHER, '');
 }
 
 module.exports = Images;
