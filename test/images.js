@@ -71,6 +71,36 @@ describe('Images', () => {
             assert.equal(image.toString(), 'http://example.com/+1');
           });
         });
+
+        describe('variation selector characters', () => {
+          let records = {
+            '\u26C4\uFE0F': [ 'http://example.com/' ]
+          };
+
+          let images = new Images(records);
+
+          describe('present in text', () => {
+            let text = '\u26C4\uFE0F';
+
+            it('should return a record', () => {
+              let image = images.getFromText('@some_bot ' + text);
+
+              assert.equal(image.getKey(), '⛄️');
+              assert.equal(image.toString(), 'http://example.com/');
+            });
+          });
+
+          describe('missing in text', () => {
+            let text = '\u26C4';
+
+            it('should return a record', () => {
+              let image = images.getFromText('@some_bot ' + text);
+
+              assert.equal(image.getKey(), '⛄️');
+              assert.equal(image.toString(), 'http://example.com/');
+            });
+          });
+        });
       });
 
       describe('record found, but incomplete', () => {
