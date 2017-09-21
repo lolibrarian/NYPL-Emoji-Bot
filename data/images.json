@@ -52,8 +52,18 @@
     "👨‍🎤": [
         "https://digitalcollections.nypl.org/items/924184d0-5eb6-0131-f2be-58d385a7b928"
     ],
-    "🤷‍♂️": [],
-    "🤷": [],
+    "🤷‍♂️": [
+        "https://digitalcollections.nypl.org/items/1a15f6c0-dc44-0130-a1c5-58d385a7bbd0",
+        "https://digitalcollections.nypl.org/items/8ebadb70-fc48-012f-e2bc-58d385a7b928"
+    ],
+    "🤷‍♀️": [
+        "https://digitalcollections.nypl.org/items/9921a168-a146-1c4d-e040-e00a180669ef"
+    ],
+    "🤷": [
+        "https://digitalcollections.nypl.org/items/510d47dd-eae7-a3d9-e040-e00a18064a99",
+        "https://digitalcollections.nypl.org/items/8ebadb70-fc48-012f-e2bc-58d385a7b928",
+        "https://digitalcollections.nypl.org/items/1a15f6c0-dc44-0130-a1c5-58d385a7bbd0"
+    ],
     "🤦": [],
     "🤦‍♀️": [],
     "🥁": [
@@ -171,7 +181,7 @@
         "https://digitalcollections.nypl.org/items/5e66b3e8-e288-d471-e040-e00a180654d7"
     ],
     "⌛️": [
-        "https://digitalcollections.nypl.org/items/510d47dd-f3eb-a3d9-e040-e00a18064a99"
+        "https://digitalcollections.nypl.org/items/510d47de-32f7-a3d9-e040-e00a18064a99"
     ],
     "⌨": [],
     "⏩": [
@@ -191,7 +201,7 @@
     ],
     "⏲": [],
     "⏳": [
-        "https://digitalcollections.nypl.org/items/510d47de-32f7-a3d9-e040-e00a18064a99"
+        "https://digitalcollections.nypl.org/items/74e3f200-ebb8-012f-1be4-58d385a7bbd0"
     ],
     "⏸": [],
     "⏹": [],
@@ -3514,9 +3524,13 @@
     "🙋": [
         "https://digitalcollections.nypl.org/items/645a6ee0-e7ab-0132-57c8-58d385a7bbd0"
     ],
+    "🙋‍♂️": [
+        "https://digitalcollections.nypl.org/items/68ede8d0-df3c-012f-158e-58d385a7b928"
+    ],
     "🙌": [
         "https://digitalcollections.nypl.org/items/510d47e3-5edd-a3d9-e040-e00a18064a99",
-        "https://digitalcollections.nypl.org/items/7f787050-1a81-0132-7732-58d385a7bbd0"
+        "https://digitalcollections.nypl.org/items/7f787050-1a81-0132-7732-58d385a7bbd0",
+        "https://digitalcollections.nypl.org/items/5e66b3e8-8c34-d471-e040-e00a180654d7"
     ],
     "🙍": [
         "https://digitalcollections.nypl.org/items/510d47d9-a83a-a3d9-e040-e00a18064a99"
