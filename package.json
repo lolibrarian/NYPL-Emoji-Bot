@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "twit": "1.x",
-    "ejs": "2.4.1",
     "thenby": "^1.2.1"
   },
   "bugs": {
